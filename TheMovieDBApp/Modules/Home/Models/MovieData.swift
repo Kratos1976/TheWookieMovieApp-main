@@ -32,8 +32,6 @@ struct MovieData: Codable {
     var cast: [String]
     var overview: String
 
-
-
     enum CodingKeys: String, CodingKey {
         case backdrop, title, length, director, cast, overview
         case imdbRating = "imdb_rating"
